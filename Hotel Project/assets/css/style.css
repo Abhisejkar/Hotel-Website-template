@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color: #F6F0D7;
+    display:flex; 
+    
+   
+}
+
+.logo{
+    height:55px;
+    padding:5px 0px 2px 8px;
+
+}
+
+header ul{
+    display:flex;
+    margin-left:auto;
+    margin-right:30px;
+    font-weight: bold;
+    
+    
+}
+header ul a{
+    padding:20px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color:#c53737;
+
+}
+header ul a:hover{
+    color:darkmagenta
+}
+
+#HeroImg img{
+    height:600px;
+    width: 100%;
+    position: absolute;
+   
+}   
+
+#Hero{
+    height: 600px;
+    width:100%;
+}
+#HeroTxt{
+    position:relative;
+    text-align: center;
+    font-size: 55px;
+    color:#ffffff;
+    top:50px;
+    text-shadow:4px 4px #c53737;
+    animation-name: HeroTxtAnimation;
+    animation-duration:3s;
+   
+}
+
+@keyframes HeroTxtAnimation {
+    0%{top:500px}
+    100%{top:50px}            
+    
+}
+/* about section */
+
+.container{
+    margin: 0px 6%;
+    padding:20px 0px;
+}
+
+.row{
+    display: flex;
+}
+.SectionTitle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin:20px 0px;
+    color:#89986D;
+}
+
+.SectionTitle span{
+    color:#b87238;
+}
+
+.col-6{
+    width: 50%;
+}
+.abtImg img{
+  height: 370px;
+  width: 100%;
+}
+.abtText{
+  padding: 0px 20px;
+}
+.abtText h3{
+    font-size: 38px;
+    color:#89986D;
+    margin: 0px 0px 10px;
+}
+.abtText p{
+    font-size: 19px;
+    padding: 10px;
+    text-align: justify;
+}
+
+/* services */
+.col-3{
+    width: 45%;
+    height: 350px;
+    text-align: justify;
+    border:5px solid #89986D;
+    padding:20px 10px 20px;
+    border-radius: 20px;
+    margin:10px;
+}
+.col-3 img{
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+}
+.col-3 h2{
+    color:#b87238;
+    font-size: 25px;
+}
+
+.col-3 p{
+    font-size: 17px;
+}
+.col-3 a{
+    background-color: #b87238;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color:#ffffff;
+    padding:10px;
+    margin:10px 0px;
+    font-size:15px;
+    text-decoration: none;
+}
+
+/* contact us secction */
+.abtImg iframe{
+    width:100%;
+    height: 570px;
+}
+
+
+.abtText li i{
+    padding:10px;
+    font-size: 25px;
+    list-style-type:none;
+}
+
+.abtText ul{
+    list-style-type: none;
+}
+
+.abtText h3{
+    margin-left:15px;
+}
+
+
+footer{
+    background-color: #89986D;
+    text-align: center;
+    padding:20px;
+    
+}
+
+form{
+    margin-left:20px;
+    font-size: 20px;
+}
+input{
+    padding:15px;
+    width:100%;
+    
+}
+input[type="submit"]{
+    width:570px;
+    
+}
